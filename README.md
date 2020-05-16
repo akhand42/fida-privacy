@@ -76,9 +76,7 @@ We chose not to implement this step at the library level because it's not the
 logical place for it - it's much easier to sort contributions by user and
 combine them together with a distributed processing framework before they're
 passed to our algorithms. You can use the library to build systems that allow
-multiple contributions per user - [our paper](https://arxiv.org/abs/1909.01917)
-describes one such system. To do so, multiple user contributions should be
-combined before they are passed to our algorithms.
+multiple contributions per user. To do so, multiple user contributions should be combined before they are passed to our algorithms.
 
 
 ## Support
@@ -91,7 +89,3 @@ issues we will publish notice here at least 3 months in advance.
 ## License
 
 [Apache License 2.0](LICENSE)
-
-## Support Disclaimer
-
-This is not an officially supported Google product.
